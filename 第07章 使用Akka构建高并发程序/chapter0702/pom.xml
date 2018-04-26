@@ -21,6 +21,13 @@
 			<artifactId>akka-actor_2.11</artifactId>
 			<version>2.3.7</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-agent -->
+		<dependency>
+			<groupId>com.typesafe.akka</groupId>
+			<artifactId>akka-agent_2.11</artifactId>
+			<version>2.3.7</version>
+		</dependency>
+
 
 	</dependencies>
 	<build>
