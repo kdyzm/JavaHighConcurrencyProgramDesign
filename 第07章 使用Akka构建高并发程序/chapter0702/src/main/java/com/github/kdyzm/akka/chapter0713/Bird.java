@@ -133,8 +133,8 @@ public class Bird extends UntypedActor {
         }
 
         //校验x4
-        max=535.4-1.331*x.get(1)-1.21*x.get(2)-1.1*x.get(3);
-        if(x.get(4)<max || x.get(4)<0){
+        max=532.4-1.331*x.get(1)-1.21*x.get(2)-1.1*x.get(3);
+        if(x.get(4)>max || x.get(4)<0){
             x.set(4,r.nextDouble()*max);
         }
     }
