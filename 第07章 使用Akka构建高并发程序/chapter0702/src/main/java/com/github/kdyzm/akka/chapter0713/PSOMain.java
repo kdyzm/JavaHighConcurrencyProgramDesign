@@ -8,7 +8,7 @@ import com.typesafe.config.ConfigFactory;
  * 启动类
  */
 public class PSOMain {
-    public static final int BIRD_COUNT = 1000000;
+    public static final int BIRD_COUNT = 3000000;
 
     public static void main(String[] args) {
         ActorSystem system = ActorSystem.create("psoSystem", ConfigFactory.load("samplehello.conf"));
