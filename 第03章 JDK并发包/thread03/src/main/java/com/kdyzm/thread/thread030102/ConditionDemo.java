@@ -9,7 +9,9 @@ import java.util.concurrent.locks.ReentrantLock;
  * 
  * @author kdyzm <br/>
  *         1. 注意condition需要使用方法await，不是Object类中的wait方法实现线程等待<br/>
- *         2. ArrayBlockingQueue使用重入锁实现
+ *         2. ArrayBlockingQueue使用重入锁实现<br/>
+ * 
+ *         {@link java.util.concurrent.ArrayBlockingQueue<E>}
  */
 public class ConditionDemo implements Runnable {
 
